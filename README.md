@@ -1,13 +1,9 @@
 # Azure-Fundamentals-Challenge
 
-
-# Introduction to Microsoft Azure Fundamentals
-
 ## Table of Contents
 - [Azure-Fundamentals-Challenge](#azure-fundamentals-challenge)
-- [Introduction to Microsoft Azure Fundamentals](#introduction-to-microsoft-azure-fundamentals)
   - [Table of Contents](#table-of-contents)
-  - [Introduction to Microsoft Azure Fundamentals](#introduction-to-microsoft-azure-fundamentals-1)
+  - [Introduction to Microsoft Azure Fundamentals](#introduction-to-microsoft-azure-fundamentals)
   - [What is Azure Fundamentals?](#what-is-azure-fundamentals)
   - [Why should I take Azure Fundamentals?](#why-should-i-take-azure-fundamentals)
   - [Module 01: Introduction to Cloud Computing](#module-01-introduction-to-cloud-computing)
