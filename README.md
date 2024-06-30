@@ -36,7 +36,7 @@
     - [Describe Platform as a Service](#describe-platform-as-a-service)
     - [Describe Software as a Service](#describe-software-as-a-service)
       - [Scenarios](#scenarios-1)
-  - [Azure Compute and Networking Features](#azure-compute-and-networking-features)
+  - [Module04: Azure Compute and Networking Features](#module04-azure-compute-and-networking-features)
 
 ## Introduction to Microsoft Azure Fundamentals
 Microsoft Azure is a cloud computing platform with an ever-expanding set of services to help you build solutions to meet your business goals.
@@ -189,11 +189,11 @@ Some common scenarios for SaaS are:
 - Email and collaboration: Using a full-featured email and calendar solution.
 - Enterprise resource planning (ERP): Using a suite of business apps.
 
-# Azure Compute and Networking Features
+# Module04: Azure Compute and Networking Features
 
 ## Overview
 
-This document provides an overview of three key compute options in Azure: Virtual Machines (VMs), Containers, and Azure Functions. It also covers essential networking features such as Azure Virtual Networks, Azure DNS, and Azure ExpressRoute.
+This provides an overview of three key compute options in Azure: Virtual Machines (VMs), Containers, and Azure Functions. It also covers essential networking features such as Azure Virtual Networks, Azure DNS, and Azure ExpressRoute.
 
 ## Azure Compute Options
 
