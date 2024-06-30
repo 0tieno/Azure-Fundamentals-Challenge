@@ -36,6 +36,7 @@
     - [Describe Platform as a Service](#describe-platform-as-a-service)
     - [Describe Software as a Service](#describe-software-as-a-service)
       - [Scenarios](#scenarios-1)
+  - [Azure Compute and Networking Features](#azure-compute-and-networking-features)
 
 ## Introduction to Microsoft Azure Fundamentals
 Microsoft Azure is a cloud computing platform with an ever-expanding set of services to help you build solutions to meet your business goals.
@@ -187,4 +188,60 @@ Software as a service (SaaS) is the most complete cloud service model from a pro
 Some common scenarios for SaaS are:
 - Email and collaboration: Using a full-featured email and calendar solution.
 - Enterprise resource planning (ERP): Using a suite of business apps.
+
+# Azure Compute and Networking Features
+
+## Overview
+
+This document provides an overview of three key compute options in Azure: Virtual Machines (VMs), Containers, and Azure Functions. It also covers essential networking features such as Azure Virtual Networks, Azure DNS, and Azure ExpressRoute.
+
+## Azure Compute Options
+
+### Azure Virtual Machines (VMs)
+
+- **Description**: VMs provide infrastructure as a service (IaaS) in the form of a virtualized server and can be used in many ways.
+- **Use Cases**:
+  - During testing and development
+  - Running applications in the cloud
+  - Extending your datacenter to the cloud
+  - During disaster recovery
+
+### Azure Containers
+
+- **Description**: Containers provide a virtualization environment to run multiple instances of an application on a single host machine. Unlike VMs, containers do not require managing the operating system.
+- **Use Case**: Ideal for running multiple instances of an application efficiently on a single physical or virtual host.
+
+### Azure Functions
+
+- **Description**: Azure Functions is an event-driven, serverless compute option that eliminates the need to maintain VMs or containers. It runs your code when triggered by events and automatically deallocates resources after execution.
+- **Key Features**:
+  - Automatic scaling based on demand
+  - Charged only for the CPU time during function execution
+  - Stateless or stateful (Durable Functions) options
+  - Core component of serverless computing
+
+## Azure Networking Features
+
+### Azure Virtual Networks
+
+- **Description**: Azure Virtual Networks and subnets allow Azure resources to communicate with each other, internet users, and on-premises computers, effectively extending your on-premises network.
+- **Capabilities**:
+  - Isolation and segmentation
+  - Internet communications
+  - Communication between Azure resources and with on-premises resources
+  - Route and filter network traffic
+  - Connect multiple virtual networks
+
+### Azure Virtual Private Networks (VPNs)
+
+- **Description**: A VPN uses an encrypted tunnel within another network, typically connecting two or more trusted private networks over an untrusted network (like the public internet).
+- **VPN Gateways**:
+  - Connect on-premises datacenters to virtual networks (site-to-site)
+  - Connect individual devices to virtual networks (point-to-site)
+  - Connect virtual networks to each other (network-to-network)
+  - Data transfer is encrypted within a private tunnel.
+
+## Conclusion
+
+Understanding these Azure compute and networking features helps in deploying scalable, secure, and efficient cloud solutions tailored to your business needs.
 
